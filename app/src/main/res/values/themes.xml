@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Herdando e sobreescrevendo estilos do Theme.AppCompat.xxx
+        que contém os estilos que atendem as especificações do Material Design
+        para a lib appcompat-v7 -->
+    <style name="Theme.MyCustomApp" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!--Cores principais usadas pelo Material Design -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+        <!--<item name="popupItemBackground">?android:selectableItemBackground</item>-->
+
+    </style>
+
+    <!--Estilos customizados usados na aplicação-->
+
+    <style name="ToolBarStyle" parent="ToolBarStyle.Base" />
+
+    <style name="ToolBarStyle.Base" parent="">
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+    <style name="ToolBarStyle.Event" parent="ToolBarStyle">
+        <item name="titleTextAppearance">@style/TextAppearance.Widget.Event.Toolbar.Title</item>
+    </style>
+
+    <style name="TextAppearance.Widget.Event.Toolbar.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#deffffff</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+
+    <style name="TextAppearance.FloatLabel" parent="android:TextAppearance.Small">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="Widget.CardContent.FlatButton" parent="Widget.CardContent">
+        <item name="android:paddingBottom">-20dp</item>
+    </style>
+
+    <style name="TextAppearance.FlatButton" parent="">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/abc_text_size_button_material</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.FlatButton.SecondaryAction" parent="">
+        <item name="android:textColor">@color/colorAccentLight</item>
+        <item name="android:textSize">@dimen/abc_text_size_button_material</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.CardContent.Headline.Medium" parent="">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/abc_text_size_title_material</item>
+    </style>
+
+    <style name="TextAppearance.CardContent.Headline.ExtraInfo.Medium" parent="Base.TextAppearance.AppCompat.Body1">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Header.Subtitle" parent="">
+        <item name="android:layout_gravity">top|start</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginLeft">35dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textColor">#8affffff</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Header.Subtitle.ExtraInfo" parent="Header.Subtitle">
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="FAB.BottomEnd" parent="">
+        <item name="android:layout_gravity">bottom|right|end</item>
+        <item name="android:layout_marginBottom">50dp</item>
+        <item name="android:layout_marginRight">26dp</item>
+        <item name="android:layout_marginEnd">26dp</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+
+</resources>

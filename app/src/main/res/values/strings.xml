@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Meu Próximo Carro</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Configurações</string>
+    <string name="aba_car_search">Pesquisar</string>
+    <string name="aba_my_favorites">Meus Favoritos</string>
+    <string name="aba_suggested_cars">Sugestões</string>
+
+    <string name="carro_detalhes_nome">Chevrolet Camaro 2SS Coupe</string>
+    <string name="opiniao_carro_1">O carro é uma máquina! Um V8 de 406cv: quando acelera, parece que quer levantar voo... o ronco é exatamente como nos filmes e nas corridas! Mas, mesmo assim, tem bastante estabilidade e é seguro.</string>
+    <string name="opiniao_carro_2">Excelente carro, muito chamativo, motor nervoso, carro é um espetáculo pra quem gosta de dirigir.</string>
+
+    <string name="famous_lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus tempor consectetur. Cras cursus ex in elit consectetur mollis. Nam nec dapibus felis, a malesuada dui. In consequat malesuada congue.</string>
+    <string name="famous_lorem_ipsum_min">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus tempor consectetur. Cras cursus ex in elit consectetur mollis.</string>
+
+    <!--My Favorites-->
+    <string name="camaro_nome">Chevrolet Camaro 2SS Coupe</string>
+    <string name="camaro_revenda">R$ 125.000,00 - Auto Shopping Formula</string>
+    
+    <string name="etios_nome">Toyota ETIOS X Sedã</string>
+    <string name="etios_revenda">R$ 44.710,00 - Attra Veículos</string>
+    
+    <string name="ecosport_nome">Ford EcoSport 1.6 FLEX</string>
+    <string name="ecosport_revenda">R$ 67.000,00 - Hyundai Caoa do Brasil</string>
+
+    <string name="uno_nome">Uno Vivace 1.4</string>
+    <string name="uno_revenda">R$ 32.000,00 - Fiat Domani</string>
+</resources>
